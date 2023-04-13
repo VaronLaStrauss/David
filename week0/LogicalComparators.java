@@ -1,5 +1,8 @@
 package week0;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+
 public class LogicalComparators {
   public static void main(String[] args) {
     // >, <, >=, <=, ==, !=
@@ -11,6 +14,13 @@ public class LogicalComparators {
     // bool = 0.4 > 2 && 0.4 > 1; false // How to use logical operators: &&, ||, !
 
     System.out.println(bool);
+  }
 
+  // to fix the issue with 0.2+0.1=0.3000004, we need to use this method:
+  static double toTwoDecimalPlaces(double decimal) {
+    DecimalFormat df = new DecimalFormat("#.##");
+    df.setRoundingMode(RoundingMode.DOWN);
+    String s = df.format(decimal);
+    return Double.parseDouble(s);
   }
 }

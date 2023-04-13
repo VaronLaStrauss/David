@@ -38,7 +38,7 @@ public class Variables {
 
     // To be tackled
     // for (;;) {
-    // int i = 0;
+
     // }
     System.out.println(num1);
   }
