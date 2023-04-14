@@ -1,4 +1,4 @@
-package week0;
+package session1;
 
 class Introduction {
   public static void main(String[] args) {

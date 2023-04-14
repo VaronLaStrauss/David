@@ -1,4 +1,4 @@
-package week0;
+package session1;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;

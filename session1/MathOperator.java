@@ -1,4 +1,4 @@
-package week0;
+package session1;
 
 public class MathOperator {
   public static void main(String[] args) {
