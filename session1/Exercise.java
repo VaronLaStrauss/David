@@ -12,8 +12,16 @@ public class Exercise {
 
     // print the comparison between the two values
 
-    // print the reason why they are the same or different
+    // print the reason why you think they are the same or different
 
     // print the two values
+
+    // create a character variable with the value 'a'
+
+    // create a boolean variable that checks if the previous variable is equal to 97
+
+    // print the boolean
+
+    // print the reason why you think the answer is true/false
   }
 }
