@@ -29,8 +29,19 @@ public class Strings {
     a = a.toUpperCase(); // A
     System.out.println(a);
 
-    String cap = str1.substring(0, 2) + a + str1.substring(3); // I Am Viany
+    String cap = str1.substring(0, 2) + a + str1.substring(3) + " " + "Manuel"; // I Am VianyManuel
     System.out.println(cap);
+
+    // split, length, and charAt
+    String name = "Viany Manuel";
+    String[] names = name.split(" "); // "Viany", "Manuel"
+    // "Viany" length 5, "Manuel" lenght 6
+    // "01234", "012345"
+    String firstname = names[0];
+    String lastname = names[1];
+
+    firstname.substring(0, firstname.length() - 1); // Vian
+    firstname.charAt(firstname.length() - 1); // y
   }
 
   static void exercise() {
