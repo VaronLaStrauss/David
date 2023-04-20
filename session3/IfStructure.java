@@ -54,6 +54,10 @@ public class IfStructure {
       System.out.println("Nay!");
     }
 
+    int grade = 81;
+    if (grade <= 100 && grade >= 96) {
+      System.out.println("A");
+    }
   }
 
   void exercise() {
