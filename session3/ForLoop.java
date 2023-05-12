@@ -2,7 +2,7 @@ package session3;
 
 public class ForLoop {
   public static void main(String[] args) {
-    // // (instantiation; equality check; increment/decrement)
+    // (instantiation; equality check; increment/decrement)
     // for (int i = 0; i < 10; i++) {
     // System.out.println(i);
     // }

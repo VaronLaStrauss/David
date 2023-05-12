@@ -11,5 +11,10 @@ public class Exercise {
 
     // abcdefghijkl...z
     // viany manuel
+
+    String letters = "abc";
+
+    String name = (char) (letters.charAt(0) + 118 - 97) + ""; // dave
+
   }
 }
