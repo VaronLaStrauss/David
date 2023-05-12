@@ -17,10 +17,13 @@ public class Methods {
   }
 
   /*
-   * <modifier> <static?> <return_type> <name>(<parameter_list>) {
+   * <modifier> <static?> <return_type/void> <name>(<parameter_list>) {
    * 
    * }
    */
+
+  static void doSomething() {
+  }
 
   static char charAt(int index, String str) {
     char letter = str.charAt(index);
